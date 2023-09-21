@@ -1,0 +1,16 @@
+body{background-image: url("../imagenes/fondoo.jpg"); }
+.titulo{text-align:center; color:#C0392B; font-size: 400%;font-family:Verdana;text-decoration: underline;text-decoration-color:#AA50E8 }
+.subtitulo{text-align:justificado; text-decoration: underline;text-decoration-color: #5AF1A8 }
+.parrafo{text-align: justify;}
+.visita{font-family: cursive;font-size: 150%}
+.imagen{height: 405px;width: auto;}
+.ingredientes{list-style-image: url("../imagenes/iconoo.png");}
+.subbtitulos{color:#A003E5 ;font-size:200%;font-family: Georgia, serif ;text-decoration: underline;text-decoration-color: #5ABFF1}
+.ultimo{font-size:150%;text-align: left;text-decoration: underline;text-decoration-color: #1707D6 ;}
+.mapa{box-shadow: 0px 10px 10px red}
+.wsp{position: fixed;width: 55px;height: 55px;line-height: 55px;bottom: 30px;right: 30px;border-radius: 50px;text-align: center;}
+main{float: left;; height:40%; ;width: 80%;}
+aside{ width: 20%; height: 60%;float: left;}
+.recetass{ display: grid; justify-content: center;}
+section{float: left;display: block;}
+footer{float: left;width: 100%; display: flex; justify-content: center; margin:10px;padding: 20px}
