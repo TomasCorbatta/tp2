@@ -1,4 +1,4 @@
-body{background-image: url("../imagenes/fondoo.jpg"); }
+body{background-image: url("../imagenes/fondoo.jpg"); background-repeat: no-repeat; background-attachment: scroll;}
 .titulo{text-align:center; color:#C0392B; font-size: 400%;font-family:Verdana;text-decoration: underline;text-decoration-color:#AA50E8 }
 .subtitulo{text-align:justificado; text-decoration: underline;text-decoration-color: #5AF1A8 }
 .parrafo{text-align: justify;}
@@ -13,4 +13,11 @@ main{float: left;; height:40%; ;width: 80%;}
 aside{ width: 20%; height: 60%;float: left;}
 .recetass{ display: grid; justify-content: center;}
 section{float: left;display: block;}
-footer{float: left;width: 100%; display: flex; justify-content: center; margin:10px;padding: 20px}
+footer{ float: left;width: 100%;display: flex;justify-content: space-around;border-block-start-style:dotted; font-size: 150%;flex-wrap: wrap;background-color: #FEAD31;}
+header{display: flex;justify-content: space-around;align-items: center;flex-wrap: wrap;}
+.red{display: flex;justify-content: space-around;}
+.redes{display: flex;justify-content: space-around;align-self: center;}
+.contenedor{display: flex;justify-content: space-around;}
+nav{display: flex;flex-direction: row;justify-content:space-evenly;}
+button{ background: #A7FE31 ;cursor: pointer;border: none;padding: 16px 32px;color: azure; font-size: 24px;font-weight: bold;position: relative;border-radius: 12px;}
+.intro {font-family: sans-serif;color:black;text-decoration: none;}
